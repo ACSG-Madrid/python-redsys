@@ -19,6 +19,7 @@ MERCHANT_COF_TXNID = 'Ds_Merchant_Cof_Txnid'
 SECURE_PAYMENT = 'Ds_SecurePayment'
 AUTHORIZATION_CODE = 'Ds_AuthorisationCode'
 PROCESSED_PAY_METHOD = 'Ds_ProcessedPayMethod'
+AMOUNT_EURO = 'Ds_Amount_Euro'
 ERROR_CODE = 'Ds_ErrorCode'
 
 RESPONSE_MAP = {
@@ -81,6 +82,7 @@ MERCHANT_PARAMETERS_MAP = {
     'secure_payment': SECURE_PAYMENT,
     'authorization_code': AUTHORIZATION_CODE,
     'processed_pay_method': PROCESSED_PAY_METHOD,
+    'amount_euro': AMOUNT_EURO,
     'error_code': ERROR_CODE,
 }
 
