@@ -20,6 +20,7 @@ SECURE_PAYMENT = 'Ds_SecurePayment'
 AUTHORIZATION_CODE = 'Ds_AuthorisationCode'
 PROCESSED_PAY_METHOD = 'Ds_ProcessedPayMethod'
 AMOUNT_EURO = 'Ds_Amount_Euro'
+CURRENCY_DCC = 'Ds_Currency_DCC'
 ERROR_CODE = 'Ds_ErrorCode'
 
 RESPONSE_MAP = {
@@ -83,6 +84,7 @@ MERCHANT_PARAMETERS_MAP = {
     'authorization_code': AUTHORIZATION_CODE,
     'processed_pay_method': PROCESSED_PAY_METHOD,
     'amount_euro': AMOUNT_EURO,
+    'currency_dcc': CURRENCY_DCC,
     'error_code': ERROR_CODE,
 }
 
