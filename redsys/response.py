@@ -21,6 +21,7 @@ AUTHORIZATION_CODE = 'Ds_AuthorisationCode'
 PROCESSED_PAY_METHOD = 'Ds_ProcessedPayMethod'
 AMOUNT_EURO = 'Ds_Amount_Euro'
 CURRENCY_DCC = 'Ds_Currency_DCC'
+AMOUNT_DCC = 'Ds_Amount_DCC'
 EMV3DS = 'Ds_EMV3DS'
 ERROR_CODE = 'Ds_ErrorCode'
 
@@ -86,6 +87,7 @@ MERCHANT_PARAMETERS_MAP = {
     'processed_pay_method': PROCESSED_PAY_METHOD,
     'amount_euro': AMOUNT_EURO,
     'currency_dcc': CURRENCY_DCC,
+    'amount_dcc': AMOUNT_DCC,
     'emv3ds': EMV3DS,
     'error_code': ERROR_CODE,
 }
