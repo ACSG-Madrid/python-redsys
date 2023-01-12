@@ -34,10 +34,14 @@ RESPONSE_MAP = {
     '106': 'Intentos de PIN excedidos',
     '125': 'Tarjeta no efectiva',
     '129': 'Código de seguridad (CVV2/CVC2) incorrecto',
+    '172': 'Denegada, no repetir.',
+    '173': 'Denegada, no repetir sin actualizar datos de tarjeta.',
+    '174': 'Denegada, no repetir antes de 72 horas.',
     '180': 'Tarjeta ajena al servicio',
     '184': 'Error en la autenticación del titular',
     '190': 'Denegación del emisor sin especificar motivo',
     '191': 'Fecha de caducidad errónea',
+    '195': 'Requiere autenticación SCA',
     '202': 'Tarjeta en excepción transitoria o bajo sospecha de fraude con retirada de tarjeta',
     '904': 'Comercio no registrado en FUC',
     '909': 'Error de sistema',
@@ -131,7 +135,7 @@ class Response(object):
 
     @property
     def response_message(self):
-        return RESPONSE_MAP['0000'] if self.is_paid() else RESPONSE_MAP[self.response]
+        return RESPONSE_MAP['0000'] if self.is_paid() else RESPONSE_MAP.get(self.response, 'Código de error no encontrado')
 
     def clean_amount(self, value):
         return Decimal("%s.%s" % (str(value)[:-2], str(value)[-2:]))
