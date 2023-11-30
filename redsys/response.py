@@ -23,6 +23,7 @@ AMOUNT_EURO = 'Ds_Amount_Euro'
 CURRENCY_DCC = 'Ds_Currency_DCC'
 AMOUNT_DCC = 'Ds_Amount_DCC'
 EMV3DS = 'Ds_EMV3DS'
+BIZUM_MOBILENUMBER = 'Ds_Bizum_MobileNumber'
 ERROR_CODE = 'Ds_ErrorCode'
 
 RESPONSE_MAP = {
@@ -93,6 +94,7 @@ MERCHANT_PARAMETERS_MAP = {
     'currency_dcc': CURRENCY_DCC,
     'amount_dcc': AMOUNT_DCC,
     'emv3ds': EMV3DS,
+    'bizum_mobilenumber': BIZUM_MOBILENUMBER,
     'error_code': ERROR_CODE,
 }
 
