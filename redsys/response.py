@@ -22,6 +22,7 @@ PROCESSED_PAY_METHOD = 'Ds_ProcessedPayMethod'
 AMOUNT_EURO = 'Ds_Amount_Euro'
 CURRENCY_DCC = 'Ds_Currency_DCC'
 AMOUNT_DCC = 'Ds_Amount_DCC'
+MARKUP_DCC = 'Ds_Markup_DCC'
 EMV3DS = 'Ds_EMV3DS'
 BIZUM_MOBILENUMBER = 'Ds_Bizum_MobileNumber'
 ERROR_CODE = 'Ds_ErrorCode'
@@ -93,6 +94,7 @@ MERCHANT_PARAMETERS_MAP = {
     'amount_euro': AMOUNT_EURO,
     'currency_dcc': CURRENCY_DCC,
     'amount_dcc': AMOUNT_DCC,
+    'markup_dcc': MARKUP_DCC,
     'emv3ds': EMV3DS,
     'bizum_mobilenumber': BIZUM_MOBILENUMBER,
     'error_code': ERROR_CODE,
