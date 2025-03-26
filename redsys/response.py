@@ -25,6 +25,7 @@ AMOUNT_DCC = 'Ds_Amount_DCC'
 MARKUP_DCC = 'Ds_Markup_DCC'
 EMV3DS = 'Ds_EMV3DS'
 BIZUM_MOBILENUMBER = 'Ds_Bizum_MobileNumber'
+CARD_TYPOLOGY = 'Ds_Card_Typology'
 ERROR_CODE = 'Ds_ErrorCode'
 
 RESPONSE_MAP = {
@@ -97,6 +98,7 @@ MERCHANT_PARAMETERS_MAP = {
     'markup_dcc': MARKUP_DCC,
     'emv3ds': EMV3DS,
     'bizum_mobilenumber': BIZUM_MOBILENUMBER,
+    'card_typology': CARD_TYPOLOGY,
     'error_code': ERROR_CODE,
 }
 
